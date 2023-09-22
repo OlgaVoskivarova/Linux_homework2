@@ -1,0 +1,19 @@
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1txt
+   2 echo "Start" >> 1.txt
+   3 date
+   4 date '+%D' >>1.txt
+   5 mkdir /opt/task
+   6 touch /opt/task/start.txt
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 cat /home/user/start/1txt >> /opt/task/start.txt
+   9 cat /opt/task/start.txt
+  10 tree
+  11 cat /home/user/start/1.txt
+  12 ls -a/
+  13 ls -a /root
+  14 cat /opt/group | head -6
+  15 cat /root/group | head -6
+  16 df -h | grep -w
+  17 history
+  18 history > history_homework2.txt
